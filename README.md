@@ -1,16 +1,18 @@
-## Hi there 👋
+# 🌿 PUSAT GROSIR HERBAL TERLENGKAP - BAKUL GROSIR HERBAL 🌿
 
-<!--
-**BakulGrosirHerbal-Official/BakulGrosirHerbal-Official** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Selamat datang di distributor resmi **Madu Hitam Pahit** dan aneka herbal kualitas premium. Kami melayani pengiriman ke seluruh Indonesia dengan harga tangan pertama!
 
-Here are some ideas to get you started:
+## 🛒 BELANJA SEKARANG DI SHOPEE (PROMO HARI INI):
+[![Shopee Store](https://img.shields.io/badge/Shopee-Visit_Store-EE4D2D?style=for-the-badge&logo=shopee&logoColor=white)](https://shopee.co.id/bakulgrosirherbal)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔥 KENAPA HARUS BELI DI BAKUL GROSIR HERBAL?
+* **Garansi Asli:** Produk Madu Hitam Pahit 100% Original.
+* **Harga Grosir:** Melayani eceran dan partai besar untuk reseller.
+* **Pengiriman Cepat:** Packing aman dengan bubble wrap tebal.
+
+---
+**[ HUBUNGI KAMI / ORDER VIA SHOPEE ]: [https://shopee.co.id/bakulgrosirherbal](https://shopee.co.id/bakulgrosirherbal)**
+---
+
+### 🌐 OPTIMASI SEARCH ENGINE (SEO_TAGS):
+`Madu Hitam Pahit, Grosir Herbal Murah, Bakul Grosir Herbal Shopee, Distributor Madu Asli, Obat Herbal Lambung, Jual Madu Hitam Termurah, Supplier Herbal Indonesia.`
