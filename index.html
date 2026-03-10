@@ -1,190 +1,380 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="Create by Dede Kuntoro">
-  <meta name="description" content="MADU HITAM PERKASA">
-  <title>MADU HITAM PERKASA</title>
-  <link rel="shortcut icon" href="http://3.bp.blogspot.com/-p9Gpy4D9Fdk/Tkp7TcNp1KI/AAAAAAAAAH0/h9IFTpZMcCE/s1600/wido2.gif">
-  
-  <!-- Mengimpor font Orbitron untuk tampilan futuristik -->
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      cursor: default;
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 10px;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      text-align: center;
-    }
+    <!-- SEO Meta Tags untuk Robot Google -->
+    <title>MADU HITAM PERKASA - Madu Stamina & Madu Herbal Asli</title>
+    <meta name="keywords" content="MADU STAMINA, MADU HITAM, MADU ASLI, MADU HERBAL, MADU PENUNJANG PERFORMA, MADU HITAM PERKASA, MADU HITAM PAHIT, Obat Kuat Herbal, Madu Kejantanan, Madu Pasak Bumi, Madu Purwaceng" />
+    <meta name="description" content="Madu Hitam Perkasa adalah Madu Herbal Asli sebagai penunjang performa dan stamina pria. 100% Herbal alami tanpa efek samping." />
+    <meta name="robots" content="index, follow" />
+    <link rel="SHORTCUT ICON" href="http://3.bp.blogspot.com/-p9Gpy4D9Fdk/Tkp7TcNp1KI/AAAAAAAAAH0/h9IFTpZMcCE/s1600/wido2.gif%29">
 
-    h2, h3 {
-      font-family: 'Orbitron', sans-serif;
-      text-align: center;
-      text-shadow: 0 0 3px purple;
-      animation: blink 3s infinite linear;
-      margin: 10px 0;
+    <!-- Script Titlebar -->
+    <script type="text/javascript">
+    var rev = "fwd";
+    function titlebar(val) {
+        var msg = " MADU HITAM PERKASA ";
+        var speed = 100;
+        var pos = val;
+        var le = msg.length;
+        if(rev == "fwd"){
+            if(pos < le){
+                pos = pos+1;
+                scroll = msg.substr(0,pos);
+                document.title = scroll;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            } else {
+                rev = "bwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        } else {
+            if(pos > 0){
+                pos = pos-1;
+                var ale = le-pos;
+                scrol = msg.substr(ale,le);
+                document.title = scrol;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            } else {
+                rev = "fwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }       
+        }
     }
+    titlebar(0);
+    </script>
 
-    h2:hover, h3:hover {
-      color: gold;
-      text-shadow: 0 0 20px #0F0;
+    <!-- Script Proteksi -->
+    <script language="Javascript"> 
+    function checartecla (evt) {
+        if (evt.keyCode == '17') {
+            return false;
+        }
+        return true;
     }
+    function bloquear(e){return false} 
+    function desbloquear(){return true} 
+    document.onselectstart=new Function ("return false") 
+    if (window.sidebar){
+        document.onmousedown=bloquear;
+        document.onclick=desbloquear;
+    }
+    var mymessage = "Security Tester Muslim Corporation Cyber was here.";
+    function rtclickcheck(keyp){
+        if (navigator.appName == "Netscape" && keyp.which == 3) {
+            return false;
+        }
+        if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+            return false;
+        }
+    }
+    document.onmousedown = rtclickcheck;
+    </script>
 
-    @keyframes blink {
-      0%, 100% { text-shadow: 0 0 1px #0F0; }
-      50% { text-shadow: 0 0 18px #0F0; }
-    }
+    <style type="text/css">
+        @import url(https://fonts.googleapis.com/css?family=Orbitron:700);
+        
+        body, a:hover {
+            cursor: url(http://cur.cursors-4u.net/cursors/cur-10/cur947.ani), url(http://cur.cursors-4u.net/cursors/cur-10/cur947.png), progress !important;
+        }
 
-    .neon {
-      color: yellow;
-      text-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 30px #968;
-    }
+        body {
+            background-color: #000000;
+            color: #fff;
+            margin: 0;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
 
-    .xxx {
-      border: 4px double red;
-      box-shadow: 0px 2px 20px white;
-      border-radius: 10px;
-      padding: 15px;
-      background: black;
-      margin-bottom: 20px;
-      overflow: hidden;
-    }
+        .container {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+        }
 
-    img {
-      border: 4px double yellow;
-      box-shadow: 0px 9px 15px white;
-      border-radius: 10px;
-      opacity: 0.85;
-      max-width: 100%;
-      height: auto;
-      transition: transform 0.3s;
-    }
-    
-    img:hover {
-      transform: scale(1.02);
-      opacity: 1;
-    }
+        .style1 {
+            font-size: clamp(24px, 6vw, 45px);
+            font-weight: bold;
+            color: gold;
+        }
 
-    a {
-      text-decoration: none;
-      color: #00FF00;
-    }
+        h2 {
+            z-index: 1;
+            font-family: Orbitron;
+            text-align: center;
+            text-shadow: 0 0 3px purple;
+            animation: blink 3s infinite linear;
+            margin: 10px 0;
+        }
 
-    marquee {
-      color: lime;
-      font-weight: bold;
-    }
+        .no-neon {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            text-shadow: none !important;
+            animation: none !important;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      border: 2px solid #fff;
-      margin-top: 10px;
-      background-color: rgba(255, 255, 255, 0.1);
-    }
+        .neon-effect {
+            font-family: Orbitron;
+            text-align: center;
+            text-shadow: 0 0 3px #0F0;
+            animation: blink 3s infinite linear;
+        }
 
-    td {
-      padding: 15px;
-      border: 1px solid #444;
-    }
+        @keyframes blink {
+            0%, 100% { text-shadow: 0 0 1px #0F0; }
+            50% { text-shadow: 0 0 18px #0F0; }
+        }
 
-    .list-khasiat {
-      text-align: left;
-      display: inline-block;
-      margin: 10px auto;
-      line-height: 1.6;
-    }
-  </style>
+        .neon {
+            color: #fff;
+            text-shadow: 0 0 5px red, 0 0 10px red, 0 0 30px orange, 0 0 45px yellow, 0 0 60px red;
+        }
+
+        .neon3 {
+            color: yellow;
+            text-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 30px #968, 0 0 45px #968, 0 0 60px #968;
+        }
+
+        .xxx {
+            border: 4px double red;
+            box-shadow: 0px 2px 20px white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background: black;
+            word-wrap: break-word;
+        }
+
+        img {
+            border: 4px double yellow;
+            box-shadow: 0px 9px 15px white;
+            border-radius: 10px;
+            opacity: 0.85;
+            max-width: 100%;
+            height: auto;
+            transition: 0.2s;
+        }
+
+        img:hover {
+            animation: tremer 0.2s linear infinite;
+        }
+
+        @keyframes tremer {
+            0%, 100% { transform: rotate(3deg); }
+            50% { transform: rotate(-3deg); }
+        }
+
+        .footer-table {
+            width: 100%;
+            border: 2px solid white;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+
+        .footer-table td {
+            padding: 8px;
+            border: 1px solid white;
+        }
+
+        /* SEO Footer Shadow Text - Invisible to users but visible to bots */
+        .seo-keywords {
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            visibility: hidden;
+            display: block;
+        }
+    </style>
 </head>
 <body>
 
-  <div class="container">
-    
-    <div class="xxx">
-      <h2>MADU HITAM PERKASA<br><span class="neon">PENUNJANG STAMINA PRIA</span></h2>
-    </div>
+<div class="container">
+    <center>
+        <!-- Header Section -->
+        <div class="xxx">
+            <div style="background:black url(http://3.bp.blogspot.com/-p9Gpy4D9Fdk/Tkp7TcNp1KI/AAAAAAAAAH0/h9IFTpZMcCE/s1600/wido2.gif%29)" class="xxx">
+                <h2><span class="style1">MADU HITAM PERKASA<br><span class="neon"><font size="4">KHUSUS OBAT KUAT</font></span></span></h2>
+            </div>
+        </div>
 
-    <div class="xxx">
-      <h2>Tanpa Efek Samping<br><span class="neon">100% HERBAL</span></h2>
-    </div>
+        <div class="xxx">
+            <div style="background:black url(http://3.bp.blogspot.com/-p9Gpy4D9Fdk/Tkp7TcNp1KI/AAAAAAAAAH0/h9IFTpZMcCE/s1600/wido2.gif%29)" class="xxx">
+                <h2><span class="style1">Tanpa Efek Samping<br><span class="neon"><font size="5">100% HERBAL</font></span></span></h2>
+            </div>
+        </div>
 
-    <div class="xxx">
-      <h2>UMUR HANYALAH ANGKA<br><span class="neon">STAMINA TETAP PERKASA</span></h2>
-    </div>
+        <div class="xxx">
+            <div style="background:black url(http://3.bp.blogspot.com/-p9Gpy4D9Fdk/Tkp7TcNp1KI/AAAAAAAAAH0/h9IFTpZMcCE/s1600/wido2.gif%29)" class="xxx">
+                <h2><span class="style1">Konsultasi Gratis<br><span class="neon"><font size="5">Privasi Aman</font></span></span></h2>
+            </div>
+        </div>
 
-    <div class="xxx">
-      <h2>Bisa COD bayar di tempat<br><span class="neon">Seluruh wilayah Indonesia</span></h2>
-    </div>
+        <div class="xxx">
+            <div style="background:black url(http://3.bp.blogspot.com/-p9Gpy4D9Fdk/Tkp7TcNp1KI/AAAAAAAAAH0/h9IFTpZMcCE/s1600/wido2.gif%29)" class="xxx">
+                <h2><span class="style1">Bisa COD bayar di tempat<br><span class="neon"><font size="4">Seluruh wilayah Indonesia</font></span></span></h2>
+            </div>
+        </div>
 
-    <div class="xxx">
-      <a href="http://maduhitam.wapsite.me/mhp.jpg" target="_blank">
-        <!-- [Gambar Madu Hitam Perkasa] -->
-        <img src="http://maduhitam.wapsite.me/mhp.jpg" alt="Produk Madu Hitam Perkasa" width="800">
-      </a>
-    </div>
+        <!-- Detail Produk -->
+        <div class="xxx">
+            <p id="hack" style="color: lime; font-weight: bold; font-family: 'Courier New', Courier, monospace;"></p>
+            
+            <font color="white">
+                <div class="no-neon" style="color:red; font-weight:bold; font-size: 1.2em;">
+                    Madu ini 100% HERBAL diramu secara tradisional.
+                </div>
+                
+                <div class="no-neon" style="color:yellow; font-weight:bold;">
+                    Tanpa campuran pil/Bahan Kimia Obat (BKO)<br>
+                    Tidak menyebabkan ketergantungan dan tidak ada efek samping<br><br>
+                    Diracik dari rempah-rempah pilihan berkualitas yang dapat membantu mengembalikan stamina dan vitalitas pria dewasa.
+                </div>
+                
+                <div class="no-neon" style="color:white;">
+                    <b>Komposisi:</b> <br>
+                    Madu Murni akasia, Pasak Bumi, Purwaceng, Tribulus, Jahe dll.<br><br>
+                    <b>Ukuran botol:</b> 100-200-250ml<br>
+                    <b>Cara Minum:</b> Minum 4 sendok makan 40 menit sebelum berhubungan, disarankan perbanyak minum air putih untuk mempercepat proses metabolisme tubuh.
+                </div>
+                
+                <div style="text-align: left; padding: 15px; color: yellow; border: 1px dashed yellow; border-radius: 8px; margin: 15px 0;">
+                    <b>ADAPUN KHASIAT NYA :</b><br>
+                    1. Meningkatkan Stamina dan Vitalitas<br>
+                    2. Meningkatkan Gairah Seksual<br>
+                    3. Mengatasi Impotensi Ereksionis<br>
+                    4. Meningkatkan Jumlah Mutu Sperma<br>
+                    5. Menambah Kejantanan & Keperkasaan PRIA <br>
+                    6. Tegang Lebih Lama, lebih Keras dan Kencang<br>
+                    7. Aman Tanpa Efek Samping.<br>
+                    8. Memperlama durasi.<br>
+                    9. Usia 50 Tahun Tetap Joss.<br>
+                    10. Hubungan Lebih Harmonis Dan Percaya Diri.
+                </div>
 
-    <div class="xxx">
-      <h3>Tentang Madu Hitam Perkasa</h3>
-      <p>Penunjang Performa Meningkatkan Stamina Pria dan daya tahan tubuh</p>
-      <p>Komposisi: Madu Murni akasia, Pasak Bumi, Purwaceng, Tribulus, Jahe dll.</p>
-      <p>Tersedia Ukuran botol plastik 200-250-350ml. Minum 2-3 sendok makan 40 menit sebelum Beraktivitas.</p>
-      
-      <div class="list-khasiat neon">
-        <b>ADAPUN KHASIAT NYA :</b><br>
-        1. Meningkatkan Stamina dan Vitalitas<br>
-        2. Meningkatkan Gairah Seksual<br>
-        3. Mengatasi Impotensi Ereksionis<br>
-        4. Meningkatkan Jumlah Mutu Sperma<br>
-        5. Menambah Kejantanan & Keperkasaan PRIA<br>
-        6. Tegang Lebih Lama, lebih Keras dan Kencang<br>
-        7. Aman Tanpa Efek Samping<br>
-        8. Memperlama durasi<br>
-        9. Usia 50 Tahun Tetap Joss<br>
-        10. Hubungan Lebih Harmonis Dan Percaya Diri
-      </div>
-    </div>
+                <h3 class="neon-effect"><font color="red">-=[+]</font> PESAN SEKARANG <font color="red">[+]=-</font></h3>
+                
+                <!-- Link Shopee -->
+                <a href="https://s.shopee.co.id/10y4h8FkZm" target="_blank" rel="nofollow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHR4kV-GpEiEZU0GKqnEHB4IlaLJNHGT4lXQ&usqp=CAU" width="220" height="220" alt="Shopee">
+                </a>
+                <br><br>
+                <a href="https://wa.me/+6281282996533" target="_blank" rel="nofollow">
+                    <img src="http://kesmas-id.com/wp-content/uploads/2019/07/Logo-Whatsapp.png" style="width: 100%; max-width: 400px;" alt="WhatsApp">
+                </a>
+            </font>
+        </div>
 
-    <div class="xxx">
-      <a href="https://shopee.co.id/bakulgrosirherbal" target="_blank">
-        <!-- [Gambar Logo Shopee] -->
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHR4kV-GpEiEZU0GKqnEHB4IlaLJNHGT4lXQ&usqp=CAU" alt="Toko Shopee" width="500">
-      </a>
-      <br><br>
-      <a href="https://wa.me/+6281282996533" target="_blank">
-        <!-- [Gambar Logo WhatsApp] -->
-        <img src="http://kesmas-id.com/wp-content/uploads/2019/07/Logo-Whatsapp.png" alt="Hubungi via WhatsApp" width="500">
-      </a>
-    </div>
+        <!-- Banner Bawah -->
+        <div class="xxx">
+            <div style="background:black url(http://1.bp.blogspot.com/-oXAQc-BXZh0/UqcoBwUCzaI/AAAAAAAAAI8/4dlhHJ8G0WQ/s1600/port_listener.gif)" class="xxx">
+                <h3 class="neon-effect">
+                    <marquee behavior="alternate" scrollamount="5"><font color="lime">&copy; </font>OPEN RESELLER - DROPSHIPING - DISTRIBUTOR</marquee>
+                </h3>
+            </div>
+        </div>
 
-    <div class="xxx">
-      <marquee behavior="alternate" scrollamount="5">&copy; OPEN RESELLER - DROPSHIPING - DISTRIBUTOR</marquee>
-    </div>
+        <!-- Ayat Al-Quran -->
+        <table class="footer-table">
+            <tr>
+                <td width="20%"><center><font color="red" size="3">An-Nahl 69</font></center></td>
+                <td><marquee><font color="white"><b>Dari perut lebah itu ke luar minuman (madu) yang bermacam-macam warnanya, di dalamnya terdapat obat yang menyembuhkan bagi manusia</b></font></marquee></td>
+            </tr>
+        </table>
+        <table class="footer-table">
+            <tr>
+                <td width="20%"><center><font color="white" size="3">CREATE BY:</font></center></td>
+                <td><marquee><font color="green"><b>LEBAH MADU</b></font></marquee></td>
+            </tr>
+        </table>
 
-    <table>
-      <tr>
-        <td style="width: 25%; font-weight: bold; text-align: center;">An-Nahl 69</td>
-        <td>Dari perut lebah itu keluar minuman (madu) yang bermacam-macam warnanya, di dalamnya terdapat obat yang menyembuhkan bagi manusia</td>
-      </tr>
-    </table>
+        <!-- EMBED SEO KEYWORDS (Untuk Robot Google) -->
+        <div class="seo-keywords">
+            <h1>MADU STAMINA</h1>
+            <h2>MADU HITAM</h2>
+            <h2>MADU ASLI</h2>
+            <h2>MADU HERBAL</h2>
+            <h2>MADU PENUNJANG PERFORMA</h2>
+            <h2>MADU HITAM PERKASA</h2>
+            <h2>MADU HITAM PAHIT</h2>
+            <p>Jual Madu Stamina Pria Asli Terbaik. Madu Hitam Perkasa herbal alami untuk stamina pria perkasa.</p>
+        </div>
+    </center>
+</div>
 
-    <table>
-      <tr>
-        <td style="width: 25%; font-weight: bold; text-align: center;">CREATE BY:</td>
-        <td style="text-align: center; font-weight: bold;">LEBAH MADU</td>
-      </tr>
-    </table>
+<!-- Script Typing Text -->
+<script type="text/javascript">
+TypingText = function(element, interval, cursor, finishedCallback) {
+    if((typeof document.getElementById == "undefined") || (typeof element.innerHTML == "undefined")) return;
+    this.element = element;
+    this.finishedCallback = (finishedCallback ? finishedCallback : function() { return; });
+    this.interval = (typeof interval == "undefined" ? 100 : interval);
+    this.origText = this.element.innerHTML;
+    this.cursor = (cursor ? cursor : "");
+    this.currentText = "";
+    this.currentChar = 0;
+    this.element.typingText = this;
+    if(this.element.id == "") this.element.id = "typingtext" + TypingText.currentIndex++;
+    TypingText.all.push(this);
+    this.running = false;
+    this.inTag = false;
+}
+TypingText.all = new Array();
+TypingText.currentIndex = 0;
+TypingText.runAll = function() {
+    for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+}
+TypingText.prototype.run = function() {
+    if(this.running) return;
+    if(this.currentChar < this.origText.length) {
+        if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+            this.inTag = true;
+        } else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+            this.inTag = false;
+        }
+        this.currentText += this.origText.charAt(this.currentChar);
+        this.element.innerHTML = this.currentText + (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "");
+        this.currentChar++;
+        setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+    } else {
+        this.finishedCallback();
+    }
+}
 
-  </div>
+new TypingText(document.getElementById("hack"), 20, "_");
+TypingText.runAll();
+
+// Script Flicker Neon
+window.onload = function() {
+    var neons = document.getElementsByClassName("neon-effect");
+    for(var j=0; j<neons.length; j++){
+        var el = neons[j];
+        var text = el.innerText || el.textContent;
+        var split = [];
+        for(var i=0; i<text.length; i++){
+            split.push("<span>" + text[i] + "</span>");
+        }
+        el.innerHTML = split.join("");
+        var spans = el.childNodes;
+        
+        (function(nodes){
+            setInterval(function(){
+                for(var i=0; i<nodes.length; i++){
+                    if(Math.random() < 0.2){
+                        nodes[i].className = "neon3";
+                    } else {
+                        nodes[i].className = "";
+                    }
+                }
+            }, 150);
+        })(spans);
+    }
+}
+</script>
 
 </body>
 </html>
